@@ -1,0 +1,41 @@
+@media (max-width: 800px) {
+    #fleur{
+        --largeur: 565px;
+        height : calc(var(--largeur)*1.6);
+        width: var(--largeur);
+        position: relative;
+        left:50%;
+        top:50%;
+        transform :translateY(-50%) translateX(-50%);
+      
+      }
+    /*apparence différente pour une page inférieure à 800px*/
+    }
+    
+    @media (max-width: 1000px) and (min-width :800px){
+        #fleur{
+            --largeur: 685px;
+            height : calc(var(--largeur)*1.6);
+            width: var(--largeur);
+            position: relative;
+            left:50%;
+            top:50%;
+            transform :translateY(-50%) translateX(-50%);
+          
+          }
+    /*apparence différente pour une page comprise entre 800px et 1000px*/
+    }
+    
+    @media (min-width :1800px){
+        #fleur{
+            --largeur: 845px;
+            height : calc(var(--largeur)*1.6);
+            width: var(--largeur);
+            position: relative;
+            left:50%;
+            top:50%;
+            transform :translateY(-50%) translateX(-50%);
+          
+          }
+    /*apparence différente pour une page supérieure à 1800px*/
+    }
